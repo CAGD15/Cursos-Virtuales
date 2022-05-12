@@ -127,11 +127,12 @@ p {
     gap: 20px;
    
 }
-.main-menu .nav-rigth nav a{
+.main-menu .nav-rigth nav i{
     color: #2c2146;
+    
 }
 
-.main-menu .nav-rigth nav a:hover{
+.main-menu .nav-rigth nav i:hover{
     color: #fff;
     transition: .5s all;
 }
@@ -143,4 +144,13 @@ p {
 
 .banner .banner-img img{
     max-width: 100%;
+}
+
+.cursos{
+    margin-top: 80px;
+}
+
+.cursos .title h2{
+    text-align: center;
+    color: #d6e600;
 }
