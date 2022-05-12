@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "titulo";
+    src: url(../font/FuturaNowHeadline-Bd.otf);
+
+}
+
+@font-face {
+    font-family: "relleno";
+    src: url(../font/Fontspring-DEMO-neuesingular-d-medium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Around";
+    color: #fff;
+    font-family: "relleno";
+
+}
+
+
+
+body {
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, #2c2146 0.1%, #0a0a0a 99.8%);
+    max-width: 1300px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: "titulo";
+}
+
+
+
+p {
+    font-family: 'relleno';
+    color: #757477;
+    line-height: 20px;
+    font-size: 1rem;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+.header .nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    gap: 70px;
+
+}
+
+.header .nav nav a {
+
+    margin-left: 40px;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+}
+
+.home .logo img {
+    max-width: 300px;
+}
+
+.home .social i {
+    color: #d6e600;
+ 
+
+}
+
+.home .social {
+    margin-right: 60px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.main-menu .nav-rigth nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 80px;
+    gap: 70px;
+
+}
