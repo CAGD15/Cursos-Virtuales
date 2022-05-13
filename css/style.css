@@ -222,6 +222,102 @@ footer{
     width: 200px;
 } 
 
+.login input {
+
+    background: #fff9f9;
+    border: 1px solid #fff9f9;
+    border-radius: 50px;
+    box-shadow: 4px 5px 2px 1px rgba(0, 0, 0, 0.06);
+    padding: 10px 450px 10px 20px;
+    font-weight: 600;
+    font-size: 10px;
+    text-decoration: none;
+    color: #2c2146;
+
+}
+
+
+.header-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px ;
+}
+
+.header-layout .logo-course img {
+    width: 200px;
+}
+
+.header-layout .social { 
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.header-layout .social a:hover {
+    transition: .5s all;
+    transform: scale(1.2);
+}
+
+
+.home-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.home-layout .info-left{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.home-layout .info-left h1{
+    font-size: 40px;
+}
+
+.home-layout .info-left  input {
+
+    background: #fff9f9;
+    border: 1px solid #fff9f9;
+    border-radius: 50px;
+    box-shadow: 4px 5px 2px 1px rgba(0, 0, 0, 0.06);
+    padding: 10px 50px 10px 20px;
+    font-weight: 600;
+    font-size: 10px;
+    text-decoration: none;
+    color: #2c2146;
+
+}
+
+.info-left a {
+
+    color: #2c2146;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #d6e600;
+    margin-left: 10px;
+}
+.home-layout  .course-logo {
+
+    margin-right: 100px;
+
+}
+
+.home-layout  .course-logo img{
+    width: 400px;
+    border-radius: 15px;
+}
+
+
+
 
 
 
