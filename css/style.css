@@ -190,6 +190,14 @@ p {
     margin-top: 5px;
     border-radius: 5px;
     background: #d6e600;
+    
+}
+.min-cursos .one .info a:hover{
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background: #eeff03;
 }
 
 .min-cursos {
@@ -201,6 +209,20 @@ p {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+
+footer{
+    background: #d6e600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo-footer img {
+    width: 200px;
+} 
+
+
 
 
 
