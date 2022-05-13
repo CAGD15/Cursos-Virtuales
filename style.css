@@ -156,8 +156,8 @@ p {
 }
 
 .min-cursos .one {
-    width: 280px;
-    height: 350px;
+    width: 200px;
+    height: 300px;
     border: solid 1px #ffffff;
     background: #212122;
     padding: 20px 40px;
@@ -171,7 +171,7 @@ p {
 }
 
 .min-cursos .one img{
-    width: 240px;
+    width: 150px;
     border-radius: 15px;
 }
 
@@ -192,6 +192,15 @@ p {
     background: #d6e600;
 }
 
+.min-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
 
 
 
