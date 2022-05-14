@@ -56,7 +56,7 @@ p {
     justify-content: center;
     align-items: center;
     height: 100px;
-    
+
 }
 
 
@@ -100,6 +100,7 @@ p {
 .home .social i {
     color: #d6e600;
 }
+
 .home .social a:hover {
     color: #fff;
     transition: .5s all;
@@ -125,14 +126,15 @@ p {
     justify-content: flex-end;
     margin-right: 80px;
     gap: 20px;
-   
-}
-.main-menu .nav-rigth nav i{
-    color: #2c2146;
-    
+
 }
 
-.main-menu .nav-rigth nav i:hover{
+.main-menu .nav-rigth nav i {
+    color: #2c2146;
+
+}
+
+.main-menu .nav-rigth nav i:hover {
     color: #fff;
     transition: .5s all;
 }
@@ -142,15 +144,15 @@ p {
     height: 400px;
 }
 
-.banner .banner-img img{
+.banner .banner-img img {
     max-width: 100%;
 }
 
-.cursos{
+.cursos {
     margin-top: 80px;
 }
 
-.cursos .title h2{
+.cursos .title h2 {
     text-align: center;
     color: #d6e600;
 }
@@ -167,32 +169,34 @@ p {
     justify-content: center;
     text-align: center;
     border-radius: 20px;
-    
+
 }
 
-.min-cursos .one img{
+.min-cursos .one img {
     width: 150px;
     border-radius: 15px;
 }
 
-.min-cursos .one .info h3{
+.min-cursos .one .info h3 {
     color: #fff;
 }
-.min-cursos .one .info p{
+
+.min-cursos .one .info p {
     color: #757477;
     margin-bottom: 20px;
 }
 
 
-.min-cursos .one .info a{
+.min-cursos .one .info a {
     color: #2c2146;
     padding: 5px 20px;
     margin-top: 5px;
     border-radius: 5px;
     background: #d6e600;
-    
+
 }
-.min-cursos .one .info a:hover{
+
+.min-cursos .one .info a:hover {
     color: rgb(255, 255, 255);
     padding: 5px 20px;
     margin-top: 5px;
@@ -210,7 +214,7 @@ p {
     margin-bottom: 60px;
 }
 
-footer{
+footer {
     background: #d6e600;
     display: flex;
     align-items: center;
@@ -220,7 +224,7 @@ footer{
 
 .logo-footer img {
     width: 200px;
-} 
+}
 
 .login input {
 
@@ -242,14 +246,14 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 40px ;
+    padding: 10px 40px;
 }
 
 .header-layout .logo-course img {
     width: 200px;
 }
 
-.header-layout .social { 
+.header-layout .social {
     font-size: 40px;
     display: flex;
     flex-direction: row;
@@ -270,7 +274,7 @@ footer{
     padding: 10px 40px;
 }
 
-.home-layout .info-left{
+.home-layout .info-left {
     width: 300px;
     display: flex;
     flex-direction: column;
@@ -279,11 +283,11 @@ footer{
     margin-left: 100px;
 }
 
-.home-layout .info-left h1{
+.home-layout .info-left h1 {
     font-size: 40px;
 }
 
-.home-layout .info-left  input {
+.home-layout .info-left input {
 
     background: #fff9f9;
     border: 1px solid #fff9f9;
@@ -305,25 +309,35 @@ footer{
     background: #d6e600;
     margin-left: 10px;
 }
-.home-layout  .course-logo {
+
+.home-layout .course-logo {
 
     margin-right: 100px;
 
 }
 
-.home-layout  .course-logo img{
+.home-layout .course-logo img {
     width: 400px;
     border-radius: 15px;
 }
 
+.temario .left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
 
+.temario .left .content span {
 
-
-
-
-
-
-
-
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    border: solid 1px #d6e600;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px 10px;
+    
+}
 
