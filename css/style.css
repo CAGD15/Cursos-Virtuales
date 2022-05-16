@@ -24,6 +24,8 @@
 body {
     background-image: radial-gradient(circle farthest-corner at 10% 20%, #2c2146 0.1%, #0a0a0a 99.8%);
     max-width: 1300px;
+    overflow-x: hidden;
+
 }
 
 
@@ -50,24 +52,14 @@ p {
 
 
 
-.header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-
-}
 
 
 
 .header .nav {
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 80px;
-    gap: 70px;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
 
 }
 
@@ -86,11 +78,7 @@ p {
 }
 
 .home {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    width: 100%;
 }
 
 .home .logo img {
@@ -101,18 +89,19 @@ p {
     color: #d6e600;
 }
 
-.home .social a:hover {
+.home .social i:hover {
+    color: #d6e600;
     color: #fff;
     transition: .5s all;
     transform: scale(1.2);
 }
 
 .home .social {
-    margin-right: 60px;
+    position: absolute;
+    top: 140px;
+    right: 30px;
     font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
+
 }
 
 .nav-rigth {
@@ -121,17 +110,14 @@ p {
 }
 
 .main-menu .nav-rigth nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 80px;
-    gap: 20px;
+    width: 100%;
+    position: relative;
+    left: 82%;
 
 }
 
 .main-menu .nav-rigth nav i {
     color: #2c2146;
-
 }
 
 .main-menu .nav-rigth nav i:hover {
@@ -158,23 +144,44 @@ p {
 }
 
 .min-cursos .one {
-    width: 200px;
-    height: 300px;
+    max-width: 200px;
+    height: 320px;
     border: solid 1px #ffffff;
     background: #212122;
     padding: 20px 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
     text-align: center;
     border-radius: 20px;
 
+
+
+}
+
+.space-one {
+    margin-left: 40px;
+}
+
+.space-two {
+    margin-left: 280px;
+}
+
+.space-three {
+    margin-left: 520px;
+}
+
+.space-four {
+    margin-left: 760px;
+}
+
+.space-five {
+    margin-left: 1000px;
 }
 
 .min-cursos .one img {
     width: 150px;
     border-radius: 15px;
+    position: relative;
+    right: 15px;
 }
 
 .min-cursos .one .info h3 {
@@ -205,22 +212,38 @@ p {
 }
 
 .min-cursos {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    flex-direction: row;
+    width: 1300px;
+    height: 320px;
+    position: relative;
     justify-content: center;
     margin-top: 60px;
     margin-bottom: 60px;
+
 }
 
 footer {
     background: #d6e600;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 30px;
+
 }
+
+footer .logo-footer{
+    position: relative;
+    top: 20px;
+}
+
+footer .title-footer {
+    position: relative;
+    left: 45%;
+    bottom: 40px;
+}
+
+footer .copyright{
+    position: relative;
+    left: 80%;
+    bottom: 60px;
+}
+
 
 .logo-footer img {
     width: 200px;
@@ -325,7 +348,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
-    
+
 }
 
 .temario .left .content span {
@@ -340,8 +363,8 @@ footer {
     border-radius: 10px;
     padding: 10px 10px;
     cursor: pointer;
- 
-    
+
+
 }
 
 .temario .left .content span:hover {
@@ -356,7 +379,7 @@ footer {
     width: 100%;
     border-radius: 10px;
     padding: 10px 10px;
-   
+
 }
 
 .temario .left .more-courses {
@@ -364,13 +387,13 @@ footer {
 }
 
 
-.temario .left .more-courses .info-courses img{
+.temario .left .more-courses .info-courses img {
     max-width: 100px;
     border-radius: 10px;
-    
+
 }
 
-.temario .left .more-courses .info-courses{
+.temario .left .more-courses .info-courses {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -384,14 +407,14 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 100px;   
+    gap: 100px;
     margin-bottom: 60px;
 }
 
 
 
 .temario .rigth .courses-more {
-    margin-left: 150px ;
+    margin-left: 150px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -399,22 +422,22 @@ footer {
 
 }
 
-.temario .rigth h2{
+.temario .rigth h2 {
     font-size: 40px;
-    
+
 }
 
-.temario .rigth a{
+.temario .rigth a {
 
     border: solid 1px #d6e600;
     padding: 10px 10px;
     text-align: center;
- 
+
     border-radius: 10px;
 
 }
 
-.temario .rigth a:hover{
+.temario .rigth a:hover {
 
     border: solid 1px #d6e600;
     padding: 10px 10px;
@@ -427,12 +450,10 @@ footer {
 
 .temario .rigth p>i {
     font-size: 30px;
-    margin-right: 10px ;
-   
+    margin-right: 10px;
+
 }
 
 .temario .rigth p {
     font-size: 18px;
 }
-
-
