@@ -227,7 +227,7 @@ footer {
 
 }
 
-footer .logo-footer{
+footer .logo-footer {
     position: relative;
     top: 20px;
 }
@@ -238,13 +238,13 @@ footer .title-footer {
     bottom: 40px;
 }
 
-footer .copyright{
+footer .copyright {
     position: relative;
     left: 80%;
     bottom: 60px;
 }
 
-
+/*////////////////////////////////////////////////////////////////////*/
 .logo-footer img {
     width: 200px;
 }
@@ -265,11 +265,14 @@ footer .copyright{
 
 
 .header-layout {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
+    width: 100%;
+
+}
+
+.header-layout .login {
+    position: relative;
+    left: 25%;
+    bottom: 50px;
 }
 
 .header-layout .logo-course img {
@@ -278,31 +281,24 @@ footer .copyright{
 
 .header-layout .social {
     font-size: 40px;
-    display: flex;
-    flex-direction: row;
-    gap: 25px;
+    position: relative;
+    left: 80%;
+    bottom: 85px;
+
 }
 
-.header-layout .social a:hover {
+.header-layout .social i:hover {
     transition: .5s all;
-    transform: scale(1.2);
+    color: #d6e600;
 }
 
 
 .home-layout {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
+    width: 100%;
 }
 
 .home-layout .info-left {
     width: 300px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
     margin-left: 100px;
 }
 
@@ -327,7 +323,7 @@ footer .copyright{
 .info-left a {
 
     color: #2c2146;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 5px;
     background: #d6e600;
     margin-left: 10px;
@@ -336,50 +332,75 @@ footer .copyright{
 .home-layout .course-logo {
 
     margin-right: 100px;
+    width: 500px;
 
 }
 
 .home-layout .course-logo img {
     width: 400px;
     border-radius: 15px;
+    position: absolute;
+    left: 60%;
+    bottom: 26%;
 }
 
 .temario .left {
-    display: flex;
-    flex-direction: column;
     margin-left: 50px;
-
 }
+
+.temario .left .content {
+    width: 600px;
+    height: 300px;
+}
+
+.temario .left .content span i {
+    position: relative;
+    top: 11px;
+}
+
+.temario .left .content span p {
+    left: 26px;
+    position: relative;
+    bottom: 6px;
+}
+
+
+.p1 {
+    margin-top: 20px;
+}
+
+.p2 {
+    margin-top: 70px;
+}
+
+.p3 {
+    margin-top: 120px;
+}
+
+.p4 {
+    margin-top: 170px;
+}
+
+.p5 {
+    margin-top: 220px;
+}
+
 
 .temario .left .content span {
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
+    position: absolute;
+
     border: solid 1px #d6e600;
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
-    padding: 10px 10px;
+    padding: 0 10px;
     cursor: pointer;
 
 
 }
 
 .temario .left .content span:hover {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 20px;
-    border: solid 1px #d6e600;
     background: #d6e600;
-    width: 100%;
-    border-radius: 10px;
-    padding: 10px 10px;
-
 }
 
 .temario .left .more-courses {
@@ -404,10 +425,6 @@ footer .copyright{
 
 .temario {
     margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 100px;
     margin-bottom: 60px;
 }
 
@@ -415,15 +432,17 @@ footer .copyright{
 
 .temario .rigth .courses-more {
     margin-left: 150px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
-
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 55%;
+    top: 75%;
 }
 
 .temario .rigth h2 {
     font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 
 }
 
@@ -432,8 +451,8 @@ footer .copyright{
     border: solid 1px #d6e600;
     padding: 10px 10px;
     text-align: center;
-
     border-radius: 10px;
+    margin-left: 10px;
 
 }
 
@@ -456,4 +475,5 @@ footer .copyright{
 
 .temario .rigth p {
     font-size: 18px;
+    margin-bottom: 20px;
 }
