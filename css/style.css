@@ -275,6 +275,12 @@ footer .copyright {
     bottom: 50px;
 }
 
+
+.header-layout .logo-course {
+    width: 200px;
+
+}
+
 .header-layout .logo-course img {
     width: 200px;
 }
